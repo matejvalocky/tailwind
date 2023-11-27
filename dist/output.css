@@ -858,6 +858,11 @@ video {
   color: 25;
 }
 
+.text-\[grey\] {
+  --tw-text-opacity: 1;
+  color: rgb(128 128 128 / var(--tw-text-opacity));
+}
+
 .hover\:rounded-xl:hover {
   border-radius: 0.75rem;
 }
