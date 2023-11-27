@@ -731,6 +731,16 @@ video {
   background-color: rgb(5 46 22 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\.\.\/public\/img\/bg-1\.avif\)\] {
   background-image: url(../public/img/bg-1.avif);
 }
@@ -741,6 +751,10 @@ video {
 
 .bg-\[url\(\.\.\/public\/img\/bg-2\.jpg\)\] {
   background-image: url(../public/img/bg-2.jpg);
+}
+
+.bg-\[url\(\.\.\/public\/img\/bg-3\.jpg\)\] {
+  background-image: url(../public/img/bg-3.jpg);
 }
 
 .bg-cover {
