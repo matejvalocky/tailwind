@@ -726,8 +726,21 @@ video {
   background-color: rgb(23 37 84 / var(--tw-bg-opacity));
 }
 
+.bg-green-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 46 22 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\.\.\/public\/img\/bg-1\.avif\)\] {
   background-image: url(../public/img/bg-1.avif);
+}
+
+.bg-\[url\(\.\.\/public\/img\/bg-2\)\] {
+  background-image: url(../public/img/bg-2);
+}
+
+.bg-\[url\(\.\.\/public\/img\/bg-2\.jpg\)\] {
+  background-image: url(../public/img/bg-2.jpg);
 }
 
 .bg-cover {
@@ -750,6 +763,10 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .text-center {
